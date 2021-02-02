@@ -1,0 +1,312 @@
+.navbar{
+    width:100%;background-color: #ccc; border: none !important;border-radius:0px;color: white!important;position:fixed;}
+.navbar .col-xs-3{
+top: 0px;
+right: 5px;
+}
+.main{
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 7%;
+   /* padding-top: 22%; */
+}
+label{
+	font-size:14px;
+	color:#EC191F !important;
+	font-weight: normal;
+}
+.navbar-default .navbar-brand,.navbar a:hover,.navbar a:focus,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: white!important;}
+.navbar-brand {
+	font-size: 19px;
+    /* padding: 7px 0; */
+    line-height: 23px;
+    padding-top: 9px;
+    position: absolute;
+/*     width: 100%; */
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-title{color: white!important;
+	font-size: 20px;
+    /* padding: 7px 0; */
+    line-height: 20px;
+   padding-top: 9px;
+    font-size: 21px;
+  
+/*     width: 100%; */
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.navbar a{
+	padding-left:0px;
+}
+.main{
+	padding-top: 110px;
+}
+.noborder{
+	border: none;
+    box-shadow: none;
+    border-bottom: solid 1px #ccc;
+    border-radius: 0px;
+}
+ /* #vehreg{
+	height:62px;
+	border-left: solid 10px #EC191F; 
+}*/
+.form-group img{
+	display:block;
+	margin:0px auto;
+}
+.icons{
+	margin-bottom:45px;
+}
+.btn{
+	display:block;
+	margin:0px auto;
+padding: 15px 42px;
+    font-size: 13px;
+text-transform:uppercase;	
+background-color:#EC191F;
+color:white;
+}
+.yes,.no{
+	height: 35px;
+    width: 90px;
+    padding: 0px;
+}
+.showSet{display:block;}
+.hideSet{display:none;}
+.list-group-item {
+	font-size:15px;
+}
+.list-group-item img{
+	width: 10px;
+    height: 14px;
+    display: inline-block;
+    float: right;
+}/*
+#map{
+    width: 100%;
+    height: 450px;
+    margin-bottom:28px;
+}*/
+.provider{
+	margin-top:50px;
+}
+/*#yes,#no{background: none;color: grey;}*/
+.logo{
+	padding:10px;
+        width:65px !important;
+        height:70px !important;
+	}
+	.client{
+		
+		right: 0;
+        float: right;
+        width: 85px !important;
+        height: 62px !important;
+        padding:5px;
+	
+	}
+	.nullpadding{
+		padding:0px;
+		
+	}
+	.nullmargin{
+		margin:0px;
+	}
+	input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+  vertical-align:middle;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+  margin: 0px;
+}
+.radio-inline{font-size: 16px;padding-left: 0px;font-weight: bold;}
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #EC191F;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}/*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+*******************************/
+	.panel-group .panel {
+		border-radius: 0;
+		box-shadow: none;
+		border-color: #EEEEEE;
+	}
+
+	.panel-default > .panel-heading {
+		padding: 0;
+		border-radius: 0;
+		color: #212121;
+		background-color: #FAFAFA;
+		border-color: #EEEEEE;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+
+	.panel-title > a {
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+	}
+
+	.more-less {
+		float: right;
+		color: #212121;
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		border-top-color: #EEEEEE;
+	}
+.glyphicon{
+	color:#EC191F;
+}
+
+.callbtn{
+	margin-top:70px;
+	border-radius:20px !important;
+	}
+.timer{
+	position:absolute;
+top:36%;
+left:40%;
+font-size:15px;
+margin-top:62px;
+}
+.form-group-chassis{
+	margin-bottom:40px;
+}
+.call{
+	color:#EC191F !important;
+}
+/* ----- v CAN BE DELETED v ----- */
+#support{
+			padding-left:46px;
+			    margin-top: -25px;
+}
+.phone_hero{
+	
+	padding-top:27px;
+	
+}
+.dealer {
+     padding-top: 55px;
+
+}
+.link2{
+	    margin-top: -35px;    
+}
+
+.dealer h2{
+	text-align:center!important;
+   
+}
+.dealer h3{
+	text-align:center!important;
+    text-decoration: underline;
+    padding-top: 50px;
+  
+}
+.form-tariff h4{
+	text-align:center;
+	margin-bottom:10%;
+}
+.form-tariff li{
+	margin:15px 12px;
+}
+.tariff-buttton{
+	display:inline-block;
+	 background-color: #EC191F;
+    color: white;
+    margin: 27px 2px;
+    padding: 8px 15px;
+	font-size: 13px;
+	    border-color: #ccc;
+}
+.form-tariff-btn{
+	text-align:center;
+}
+.loader {
+  border-bottom: 16px solid #EC191F;
+  border-radius: 50%;
+  border-top: 16px solid #EC191F;
+  width: 130px;
+  height: 130px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0px auto;
+  display:;
+}
+input[type="date"]::before{
+     content: attr(placeholder) ": ";
+}
+input[type="date"]:focus:before{
+    content: "" ;
+  }
+  input[type="date"]:focus:after{
+    content: "" ;
+  }
+ .modal-btn{
+ display: block;
+    margin: 0px auto;
+    padding: 5px 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #EC191F;
+    color: white;
+ }
+ .modal-td{
+	 padding:5px;
+ }
+#case-tbl td{
+   padding:10px; 
+    font-weight: bold;
+}
+.form-call {
+    margin-bottom: 15px;
+	margin-top:40px;
+}
+.form-call img {
+    display: block;
+    margin: 0px auto;
+}
+#green-phone-info_double {
+    background:url(/microsite/images/phone_hero.png) no-repeat left center;
+    padding: 8px 0 8px 45px;
+    margin-left: 55px;
+	margin-top:60px;
+    font-family: Arial;
+}
+#green-phone-info_double h2{
+	font-size:20px;
+	color:#EC191F;
+	margin:3px 0px 0px 9px;
+}
+#green-phone-info_double h3{
+	margin:3px 0px 0px 13px;
+}

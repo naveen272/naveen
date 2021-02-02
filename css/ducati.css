@@ -1,0 +1,275 @@
+.navbar{background-color: #0c3b93;border: none !important;border-radius:0px;color: white!important;}
+.main{
+width: 100%;
+    padding: 4%;
+}
+label{
+	font-size:14px;
+	color:#0c3b93!important;
+	font-weight: normal;
+}
+.navbar-default .navbar-brand,.navbar a:hover,.navbar a:focus,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: white!important;}
+.navbar-brand {
+	font-size: 19px;
+    /* padding: 7px 0; */
+    line-height: 23px;
+    padding-top: 9px;
+    position: absolute;
+/*     width: 100%; */
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-title{color: white!important;
+	font-size: 20px;
+    /* padding: 7px 0; */
+    line-height: 20px;
+   padding-top: 9px;
+    font-size: 21px;
+  
+/*     width: 100%; */
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.navbar a{
+	padding-left:0px;
+}
+main{
+	padding-top: 18px;
+}
+.noborder{
+	border: none;
+    box-shadow: none;
+    border-bottom: solid 1px #ccc;
+    border-radius: 0px;
+}
+ /* #vehreg{
+	height:62px;
+	border-left: solid 10px #0c3b93; 
+} */
+.form-group img{
+	display:block;
+	margin:0px auto;
+}
+.icons{
+	margin-bottom:45px;
+}
+.btn{
+	display:block;
+	margin:0px auto;
+padding: 15px 42px;
+    font-size: 13px;
+text-transform:uppercase;	
+background-color:#0c3b93;
+color:white;
+}
+.yes,.no{
+	height: 35px;
+    width: 90px;
+    padding: 0px;
+}
+.showSet{display:block;}
+.hideSet{display:none;}
+.list-group-item {
+	font-size:15px;
+}
+.list-group-item img{
+	width: 10px;
+    height: 14px;
+    display: inline-block;
+    float: right;
+}/*
+#map{
+    width: 100%;
+    height: 450px;
+    margin-bottom:28px;
+}*/
+.provider{
+	margin-top:50px;
+}
+/*#yes,#no{background: none;color: grey;}*/
+.logo{
+	padding:10px;
+	}
+	.client{
+		right: 0;
+    float: right;
+	}
+	.nullpadding{
+		padding:0px;
+		
+	}
+	.nullmargin{
+		margin:0px;
+	}
+	input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+  vertical-align:middle;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+  margin: 0px;
+}
+.radio-inline{font-size: 16px;padding-left: 0px;font-weight: bold;}
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #0c3b93;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}/*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+*******************************/
+	.panel-group .panel {
+		border-radius: 0;
+		box-shadow: none;
+		border-color: #EEEEEE;
+	}
+
+	.panel-default > .panel-heading {
+		padding: 0;
+		border-radius: 0;
+		color: #212121;
+		background-color: #FAFAFA;
+		border-color: #EEEEEE;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+
+	.panel-title > a {
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+	}
+
+	.more-less {
+		float: right;
+		color: #212121;
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		border-top-color: #EEEEEE;
+	}
+.glyphicon{
+	color:#0c3b93;
+}
+.form-group-chassis{
+	margin-bottom:40px;
+}
+/* ----- v CAN BE DELETED v ----- */
+.call{
+	color:#0c3b93 !important;
+}
+#green-phone-info_double{
+background:url(/microsite/images/phone.png) no-repeat left center;
+padding:8px 0 8px 40px;
+margin-left:69px;
+font-family:Arial;
+ background-size:30px 30px;
+}
+
+#green-phone-info_double h3{
+color:#004799;
+margin-top:1px !important;
+margin-bottom:4px !important;
+font-size:20px !important;
+}
+#green-phone-info_double h4{
+color:#000000;
+font-weight:normal;
+font-size:1.1em;
+margin-top:0px !important;
+margin-bottom:1px !important;
+font-size:18px !important;
+}
+#support{
+			padding-left:46px;
+			    margin-top: -23px;
+}
+.phone_hero{
+	
+	padding-top:27px;
+	
+}
+.form-tariff h4{
+	text-align:center;
+	margin-bottom:10%;
+}
+.form-tariff li{
+	margin:15px 12px;
+}
+.tariff-buttton{
+	display:inline-block;
+	 background-color: #0c3b93;
+    color: white;
+    margin: 27px 2px;
+    padding: 8px 15px;
+	font-size: 13px;
+	    border-color: #ccc;
+}
+.form-tariff-btn{
+	text-align:center;
+}
+.timer{
+	position:absolute;
+top:36%;
+left:40%;
+font-size:15px;
+margin-top:62px;
+}
+.loader {
+  border-bottom: 16px solid #0c3b93;
+  border-radius: 50%;
+  border-top: 16px solid #0c3b93;
+  width: 130px;
+  height: 130px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0px auto;
+  display:;
+}
+input[type="date"]::before{
+     content: attr(placeholder) ": ";
+}
+input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+   .modal-btn{
+ display: block;
+    margin: 0px auto;
+    padding: 5px 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #0c3b93;
+    color: white;
+ }
+  .modal-td{
+	 padding:5px;
+ }
+#case-tbl td{
+   padding:10px; 
+    font-weight: bold;
+}
+.modal-phone{
+	padding:10px;
+}

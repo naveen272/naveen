@@ -1,0 +1,20 @@
+#tow h5{
+    
+    padding: 10px;
+}
+  button {
+		  background-color: #3470ac;
+		  border: none;
+		  border-radius:15px;
+		  color: white;
+		  padding: 3px 10px;
+		  text-align: center;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+		#ststus{
+		margin-left: 8%;
+		margin-top: -3%;
+	}
